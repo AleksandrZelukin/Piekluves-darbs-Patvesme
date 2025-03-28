@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background: url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg);
+    padding:100px 0;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container{
+    width: 800px;
+    min-height: 600px;
+    border:10px solid wheat;
+    margin: 0 auto;
+    background-color: wheat;
+}
+
+.header{
+    display: flex;
+    height: 150px;
+    
+}
+
+.tittle-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 30px;
+    background: url(https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)no-repeat center center / cover;
+    color: white;
+}
+
+.userpic {
+    display: flex;
+    height: 100%;
+    width: 20%; 
+    
+    background: url(https://images.unsplash.com/photo-1444212477490-ca407925329e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80)no-repeat center center / cover;  
+
+}
+
+.nav ul {
+    display: flex;
+    background: rgb(255, 197, 155);
+}
+
+.nav li {
+    
+}
+
+.nav li a {
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color:rgb(173, 59, 17) ;
+    font-weight: bold;
+    border-right: 1px solid rgb(173, 59, 17) ;
+    transition: background 1s ease;
+}
+
+.nav li a:hover {
+    background:rgb(255, 166, 103) ;
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.content {
+    width: 70%;
+    padding:20px;
+}
+
+.content p {
+    line-height: 20px;
+}
+
+.sidebar {
+    padding: 10px;
+    width: 30%;  
+}
+
+.skills li {
+    margin: 10px 0;
+    transition: transform .7s ease;
+    cursor: pointer;
+}
+
+.skills li :hover {
+    transform: translateX(10px);
+}
+
+.skills li a {
+    padding: 10px;
+    display: flex;
+    text-decoration: none;
+    color:rgb(173, 59, 17) ;
+    font-weight: bold;
+    border-right: 1px solid rgb(173, 59, 17) ;
+    transition: background 1s ease;
